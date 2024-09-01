@@ -1,0 +1,336 @@
+@font-face {
+    font-family: Founder;
+    src: url(FoundersGroteskCondensed-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    background-color: #f8f8f8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f8f8;   
+}
+nav .right{
+    color: #000;
+    font-family: Founder;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 5px;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 40px;
+ }
+ nav ul a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul a:hover{
+    text-shadow: 3px 0px 6px rgb(187, 174, 174);
+    font-size: 17px;
+    transition: .2s;
+}
+.first_section{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.first_section{
+    margin: 14px;
+    padding: 13rem;
+    height: 80vh;
+}
+.first_class img{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    left: 9rem;
+    position: relative;
+}
+.second_class{
+    position: relative;
+  left: -18px;
+  top: 2rem;
+}
+
+.second_class h5{
+    font-weight: 100;
+  position: relative;
+  left: 4rem;
+}
+.second_class h3{
+    font-weight: 500;
+  position: relative;
+  left: 2rem;
+}
+.second_class button{
+    margin: 10px;
+  padding: 8px 15px 12px;
+  border-radius: 19px;
+  border: 2px solid black;
+  font-size: 12px;
+  background: transparent;
+  cursor: pointer;
+  transition: .2s;
+}
+.second_class button:hover{
+    box-shadow: 0px 0px 3px rgb(53, 53, 45);
+}
+.contact{
+    background-color: #000 !important;
+    color: #fff;
+}
+.contact:hover{
+    color: #000;
+    background: #fff !important;
+
+}
+.icon a{
+    color: #000;
+    position: relative;
+    left: 6.5rem;
+    font-size: 19px;
+}
+.icon a:hover{
+    font-size: 24px;
+    transition: .2s;
+}
+.para_graph{
+    align-content: center;
+    left: 41rem;
+    position: relative;
+    margin-top: 6rem;
+}
+.para_graph p{
+    font-size: small;
+    left: 2rem;
+    position: relative;
+}
+.para_graph h1{
+    font-family: corbel;
+    color: #000;
+}
+.second_section{
+    height: 80vh;
+}
+.s_section{
+    display: flex;
+    justify-content: center;   
+}
+
+.education,.experience{
+    height: 9rem;
+  width: 25rem;
+  background: transparent;
+  border: 2px solid #000;
+  border-radius: 10px;  
+  border: 2px solid #000;
+  padding: 2rem;
+  margin: 5rem;
+}
+.education i{
+    left: 10rem;
+    position: relative;
+    font-size: 25px;
+    top: -1rem;
+}
+.education h2{
+    position: relative;
+  left: 7rem;
+  top: -1rem;
+}
+.education h5{
+  
+  /* word-wrap: break-word; */
+  font-weight: 100;
+  left: 5rem;
+  position: relative;
+}
+.experience i{
+    left: 10rem;
+    position: relative;
+    font-size: 25px;
+    top: -1rem;
+}
+.experience h2{
+    position: relative;
+    left: 3.5rem;
+    top: -1rem;
+}
+.experience h5{
+    font-weight: 100;
+  left: 5rem;
+  position: relative;
+}
+.paragraph{
+    word-break: break-all;
+  max-width: 65%;
+  height: 80vh;
+  position: relative;
+  left: 16rem;
+  top: -3rem;
+}
+.third_section{
+    margin-top: 10rem;
+    height: 80vh;
+}
+.t_section{
+    display: flex;
+    justify-content: center;
+}
+.F_tool{
+    height: 15rem;
+    width: 25rem;
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;  
+    border: 2px solid #000;
+    padding: 2rem;
+    margin: 5rem;
+    /* display: flex; */
+}
+.F_tool i{
+    padding: 12px;
+    position: relative;
+    top: 1.4rem;
+    left: -1.3rem;
+}
+.fourth_section{
+   
+    height: 80vh;
+}
+.projects{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.projects .proj1{
+      height: 19rem;
+      width: 17rem;
+      background-color: rgb(237, 237, 225);
+      border: 2px solid #000;
+      border-radius: 10px;
+      overflow: auto;
+      align-content: center;
+      padding: 15px;
+}
+.projects .proj1 img{
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    left: 9px;
+    top: -1rem;
+    border-radius: 30px;
+    animation: image 10s infinite;
+    transition: .2s;
+}
+@keyframes image{
+      0%{
+          transform: translateY(5px);
+      }
+      50%{
+          transform: translateY(15px);
+      }
+}
+.proj1 h3{
+      display: flex;
+      justify-content: center;
+      font-family: arial;
+      font-size: 18px;
+      
+}
+.proj1 button{
+      padding: 1px;
+      width: 6rem;
+      height: 2rem;
+      margin: 3px;
+      align-content: center;
+      position: relative;
+      left: 17px;
+      border-radius: 16px;
+      background: transparent;
+      color: #000;
+      border: 2px solid #000;
+      transition: .2s;
+  }
+  .proj1 button:hover{
+      cursor: pointer;
+      box-shadow: 0px 0px 3px rgb(53, 53, 45);
+      font-size: 15px;
+  }
+.fifth_section{
+    height: 60vh;
+}
+.f_section{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.f_tool{
+    height: 12rem;
+    width: 21rem;
+    /* background-color: rgb(237, 237, 225); */
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: auto;
+    align-content: center;
+    padding: 15px;
+}
+.f_tool img{
+    height: 94px;
+  width: 97px;
+  position: relative;
+  left: 6rem;
+}
+.f_tool h3{
+    display: flex;
+      justify-content: center;
+      font-family: arial;
+      font-size: 14px;
+      position: relative;
+        top: 1rem;
+}
+.f_tool button{
+    padding: 1px;
+      width: 6rem;
+      height: 2rem;
+      margin: 3px;
+      align-content: center;
+      position: relative;
+      top: 1rem;
+      left: 46px;
+      border-radius: 16px;
+      background: transparent;
+      color: #000;
+      border: 2px solid #000;
+      transition: .2s;
+}
+.f_tool button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgb(53, 53, 45);
+    font-size: 15px;
+}
+.sixth_section{
+    height: 40vh;
+}
+.contact_section{
+    margin-top: 4rem;
+    width: 26%;
+  background-color: transparent;
+  padding: 18px;
+  border: 2px solid black;
+  border-radius: 19px;
+  position: relative;
+  left: 34rem;
+}
