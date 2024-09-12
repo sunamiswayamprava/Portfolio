@@ -17,8 +17,7 @@
                   <a href="#secondsection" id="About"><li>About</li></a>
                   <a href="#thirdsection" id="Experience"><li>Experience</li</a>
                   <a href="#fourthsection" id="Project"><li>Project</li</a>
-                  <a href="#fifthsection" id="Block"><li>Block</li</a>
-                  <a href="#sixthsection" id="Contact"><li>Contact</li></a>
+                  <a href="#sixthsection" id="Contact"><li>Message</li></a>
                 </ul>
             </div>
         </nav>
@@ -28,6 +27,7 @@
 <section id="firstsection" class="first_section">
             <div class="first_class" data-aos="flip-up">
                 <img src="sonuu.jpg" alt="image not found">
+                
             </div>
             <div class="second_class" data-aos="fade-left">
             <div>
@@ -37,7 +37,7 @@
                 <button class="resume" onclick="window.open('tue1.pdf')" id="openpdf">
                     See Resume
                 </button>
-                <a href="#sixthsection"><button class="contact">Contact Info</button></a>
+                <a href="#fifthsection"><button class="contact">Contact Info</button></a>
             </div>
             <div class="icon">
                 <a href="https://www.linkedin.com/in/sunami-swayamprava-mohanty-791019252/overlay/contact-info/"><i class='bx bxl-linkedin' ></i></a>
@@ -119,19 +119,19 @@
 
    <!-- <section id="fourthsection" class="fourth_section"> -->
     <div class="projects">
-        <div class="proj1">
-             <img src="projectimage.jpeg" alt="image not found">
-             <h3>Project One</h3>
-             <button>Live Demo</button>
-             <button>Git Hub</button>
+        <div class="proj1" data-aos="zoom-in-up">
+             <img src="sonuu.jpg" alt="image not found">
+             <h3>Portfolio Website</h3>
+             <a href="https://grand-treacle-1c5c8c.netlify.app"><button>Live Demo</button></a>
+             <a href="https://github.com/sunamiswayamprava/portfolio"><button>Git Hub</button></a> 
         </div>
-        <div class="proj1">
+        <div class="proj1" data-aos="zoom-in-up">
              <img src="projectimage.jpeg" alt="image not found">
              <h3>Project Two</h3>
             <a href="#"><button>Live Demo</button></a>
             <a href="#"><button>Git Hub</button></a> 
         </div>
-        <div class="proj1">
+        <div class="proj1" data-aos="zoom-in-up">
              <img src="projectimage.jpeg" alt="image not found">
              <h3>Project Three</h3>
              <button>Live Demo</button>
@@ -141,53 +141,49 @@
 </section>
 
 
+
 <section id="fifthsection" class="fifth_section">
-   <div class="para_graph" data-aos="fade-up">
-    <p>Have a look on  </p>
-    <h1>My Recent Blogs</h1>
-</div>
-
-<!-- <section id="fifthsection" class="fifth_section"> -->
-    <div class="f_section">
-        <div class="left_side">
-            <div class="f_tool">
-                <img src="images.png" alt="image not found">
-                <h3>"Blog Tittle One"</h3>
-                <button>Live Demo</button>
-                <a href="https://github.com/sunamiswayamprava"><button>Git Hub</button></a>
-            </div>
-         </div>
-        <div class="right_side">
-            <div class="f_tool">
-                <img src="images.png" alt="image not found">
-                <h3>"Blog Tittle Two"</h3>
-                <button>Live Demo</button>
-                <a href="https://github.com/sunamiswayamprava"><button>Git Hub</button></a>
-            </div>
-        </div>
-        <div class="right_side">
-            <div class="f_tool">
-                <img src="images.png" alt="image not found">
-                <h3>"Blog Tittle Three"</h3>
-                <button>Live Demo</button>
-                <a href="https://github.com/sunamiswayamprava"><button>Git Hub</button></a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section id="sixthsection" class="sixth_section">
 <div class="para_graph" data-aos="fade-up">
     <p>Get in Touch </p>
     <h1>Contact Me</h1>
 </div>
 
-<!-- <section id="sixthsection" class="sixth_section"> -->
     <div class="contact_section">
-        <i class='bx bxl-linkedin-square'></i>Linkdin
-        <i class='bx bxs-envelope'></i>sunamiswayamprava2812@gmail.com
+        
+        <a href="https://t.me/c/1544087570/20374"><i class='bx bxl-telegram'>Telegram</i></a>
+        <a href="http://Wa.me/+917077461297"><i class='bx bxl-whatsapp'>whatsapp</i></a>
+        <a href="https://www.linkedin.com/in/sunami-swayamprava-mohanty-791019252/overlay/contact-info/"><i class='bx bxl-linkedin-square'>Linkdin</i></a>
+        <i class='bx bxs-envelope'>sunamiswayamprava2812@gmail.com</i>
     </div>
+    <img src="call.png" alt="Img not found">
+</section>
+
+
+<section class="sixth_section" id="sixthsection">
+    <div class="para_graph" data-aos="fade-up">
+        <p>Let's connect with</p>
+        <h1>Passing Message</h1>
+    </div>
+
+<div class="wrapper centered"  id="w_centered" data-aos="zoom-in-up">
+  <article class="letter">
+    <div class="side">
+      <h1>Talk to me..</h1>
+      <!-- <form action="#.php" method="POST"> -->
+      <p>
+        <textarea placeholder="Your message..."></textarea>
+
+      </p>
+      <div id="demo"></div>
+      <button id="sendLetter">Send</button>
+    <!-- </form> -->
+    </div>
+  </article>
+  <div class="envelope front"></div>
+  <div class="envelope back"></div>
+</div>
+
+<p class="result-message ">Thank you for your message</p>
 </section>
     </main>
 
@@ -195,7 +191,7 @@
     
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init(2000);
     </script>
 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -205,5 +201,7 @@
       typeSpeed: 10,
     });
   </script>
+
+  <script src="script.js"></script>
 </body>
 </html>
